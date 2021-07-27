@@ -1,0 +1,15 @@
+p{
+    color: crimson;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 20px;
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
